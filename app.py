@@ -11,9 +11,10 @@ def main():
     all_archive_id.append('/var/data/scans/public/8289540E-9AA0-47DB-A58B-4E36DD677695/0/441304_doc1.tiff')
     all_archive_id.append('/var/data/scans/public/8289540E-9AA0-47DB-A58B-4E36DD677695/0/441305_doc1.tiff')
 
-    newspaper_name = 'red_star'
-    current_directory = os.path.dirname(os.path.realpath(__file__))
-    output_folder = os.path.join(current_directory, newspaper_name)
+    # current_directory = os.path.dirname(os.path.realpath(__file__))
+    # output_folder = os.path.join(current_directory, 'red_star')
+
+    output_folder = '/Users/saha1506/Desktop/red_star'
 
     max_image_units = 250
 
